@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 40%;
+  padding: 15px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.quote-box {
+  width: 100%;
+  height: 200px;
+  padding: 15px 0;
+  margin: 0 auto;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
